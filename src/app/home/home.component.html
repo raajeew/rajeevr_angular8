@@ -1,0 +1,4 @@
+<p>About</p>
+
+<p *ngFor="let d of data" [innerHTML]='d.description'></p>
+<mat-spinner *ngIf="showLoading"></mat-spinner>

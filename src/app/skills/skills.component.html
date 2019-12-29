@@ -1,0 +1,6 @@
+<p>My Technical Skills</p>
+
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let item of data">{{item.skill}}, {{item.yoe}} yrs</mat-list-item>
+  </mat-list>
+<mat-spinner *ngIf="showLoading"></mat-spinner>
